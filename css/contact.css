@@ -1,3 +1,16 @@
+.register-text {
+    height: 120px;
+    width: 90%;
+    position: fixed;
+    top: 110px;
+    text-align: center;
+    Color: purple;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 3px solid navy;
+    margin-left: 50px;
+    background-color: #D3D3D3;
+}
 .contact {
     color: black;
     height: 400px;
@@ -23,9 +36,10 @@
     color: navy;
     font-weight: bold;
     background-color: #D3D3D3;
-    position: relative;
-    top: 100px;
+    position: fixed;
+    top: 280px;
     margin-left: 50px;
+    margin-bottom: 20px;
     padding: 30px;
     border: 2px solid purple;
 }
