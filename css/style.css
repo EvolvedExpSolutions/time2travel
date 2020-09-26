@@ -54,7 +54,7 @@ body {
   
  
   .banner {
-    background-image: url("../img/Paris-Tower.jpg")
+    background-image: url("../img/Paris-Tower.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -79,7 +79,7 @@ body {
   }
   
   .column {
-    border
+    border: 3px solid purple;
     width: 47%;
     float: left;
     margin-left: 25px;
@@ -100,7 +100,7 @@ body {
 
   .col-box2 img{
     height: 280px;
-    width: 100%
+    width: 100%;
     padding-top: 5px;
   }
 
