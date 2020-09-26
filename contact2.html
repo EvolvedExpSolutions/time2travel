@@ -8,7 +8,7 @@
         <script src="https://kit.fontawesome.com/324c84e9a4.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="stylesheet" href="css/about.css" type="text/css">
+        <link rel="stylesheet" href="css/contact.css" type="text/css">
       </head>
       <!-------------BODY CONTENT----------->
       <body>
@@ -25,16 +25,21 @@
       
        <!-- Emit shortcode for header uses shorthand header>nav.nav-bar>ul.nav-list>li.list-items*3--> 
       <!----------End of Nav--------> 
-        <section class="about-container">
-            <div>
-                <iframe width="800" height="600" src="https://www.youtube.com/embed/RcmrbNRK-jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div>
-                <audio controls src=""></audio>
-            </div>
-        </section>
+      
+   <section class="container">
+       <form action="#">
+        <label for="fname">First Name</label>   
+        <input type="text" class="information" name="firstname" placeholder="Your First Name">
+        <label for="lname">Last Name</label>   
+        <input type="text" class="information" name="lastname" placeholder="Your Last Name">
+        <label for="email">Email</label>   
+        <input type="text" class="information" name="email" placeholder="Email">
+        <label for="fname">Destination</label>   
+        <input type="text" class="information" name="destination" placeholder="Where do you want to go?">
+       </form>
+   </section>
 
-      <!----------FOOTER------------>
+        <!-----------FOOTER--------->
         <footer class="footer">
           <div class="footer-col">
             <button class="button">Plan Your Trip</button>

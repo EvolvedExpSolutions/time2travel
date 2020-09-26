@@ -1,0 +1,38 @@
+.contact {
+    color: black;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    margin: 60px;
+
+}
+
+.info {
+    color: black;
+    height: 30px;
+    width: 350px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid purple;
+}
+
+.container {
+    height: 600px;
+    width: 50%;
+    color: navy;
+    font-weight: bold;
+    background-color: #D3D3D3;
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+    padding: 30px;
+    border: 2px solid purple;
+}
+
+.information {
+    width: 350px;
+    height: 40px;
+    display: block;
+    margin: 30px;
+}

@@ -1,7 +1,8 @@
 
 body {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
   }
   /*******NAVIGATION********/
   .nav-bar {
@@ -24,28 +25,23 @@ body {
     color: navy;
     list-style-type: none;
     margin-right: 20px;
+    text-align: center;
     float: right;
     height: 90px;
   }
 
   .nav-list-items {
     color: navy;
-    margin: 10px;
-    background-color: gray;
-    border: 3px solid #fff;
-    border-radius: 6px; 
-    width: 70px;
+    margin: 20px;
+    width: 100px;
     height: 30px;
+    text-align: center;
     display: inline-block;
 
   }
   
   .nav-list-items:hover {
-    background-color: gold;
-  }
-
-  .footer {
-    display: inline-block;
+    background-color: gray;
   }
   
   .nav-list-items a {
@@ -71,27 +67,30 @@ body {
     position: absolute;
     top: 300px;
     Left: 40%;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 5px;
+    text-align: center;
   }
 
-  section {
-    width: 100%;
+  .row {
     margin: 5px;
+    display: inline-block;
   }
   
   .column {
     border: 3px solid purple;
-    width: 47%;
-    float: left;
+    width: 640px;
+    height: 600px;
     margin-left: 25px;
   }
 
   .box {
     height: 280px;
     width: 600px;
-    border: 3px solid purple;
     position: relative;
     left: 20px;
-    top: 40px;
+    top: 20px;
+
   }
 
   .col-box1 img{
@@ -101,35 +100,88 @@ body {
   .col-box2 img{
     height: 280px;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 5px; 
   }
-
+  
   .col-text {
-    float: right;
     border: 3px solid purple;
     margin: 40px;
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
 
+  }
+
+  .bali-photo {
+    width: 100%;
+    /**border: 4px solid blue;**/
+    Float: right;
+  }
+  
+  .description {
+    padding-top: 20px;
   }
 
   .border {
-    position: relative;
+    /**position: relative;**/
     left: 20px;
     top: 30px;
   }
 
-  .travel-text {
+  /**.travel-text {
     width: 80%;
     float: right;
     padding: 20px;
     border: 4px solid blue;
-  }
+    text-align: center;
+  }**/
   
-  .bali-photo {
-    width: 35%;
-    padding: 10px;
-    border: 4px solid blue;
-  }
-  
-  .footer {
-    position: relative;
-  }
+
+ .footer {
+   width: 100%;
+   height: 100px;
+   position: relative;
+   background-color: #D9AFCA;
+   text-align: center;
+ }
+
+ .footer-col {
+   display: inline-block;
+   height: 100px;
+   width: 33%
+ }
+
+ .button {
+   color: navy;
+   background-color: gray;
+   height: 30px;
+   width: 150px;
+ }
+
+ .input {
+   height: 30px;
+   width: 150px;
+ }
+
+ .fab {
+   font-size: 2.5em;
+   padding: 30px;
+ }
+
+ .fa-instagram {
+   color: #3b5598;
+ }
+
+ .fa-linkedin {
+   color: #3b5598;
+ }
+
+ .fa-tumblr {
+   color: #689b69;
+ }
+ 
+ .copyright {
+   color: navy;
+ }
