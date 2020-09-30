@@ -82,14 +82,16 @@ body {
     width: 640px;
     height: 600px;
     margin-left: 25px;
+    float: left;
   }
 
   .box {
     height: 280px;
     width: 600px;
-    position: relative;
+    position: relative; 
     left: 20px;
     top: 20px;
+    
 
   }
 
@@ -108,7 +110,7 @@ body {
   }
   
   .bali-box {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 20px;
     height: 600px;
     width: 640px;
