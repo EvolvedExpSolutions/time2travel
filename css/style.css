@@ -22,7 +22,7 @@ body {
   }
   
   .nav-list {
-    color: navy;
+    color:#6A0dad;
     list-style-type: none;
     margin-right: 20px;
     text-align: center;
@@ -31,7 +31,7 @@ body {
   }
 
   .nav-list-items {
-    color: navy;
+    color: #6A0dad;
     margin: 20px;
     width: 100px;
     height: 30px;
@@ -60,7 +60,7 @@ body {
   }
   
   .h1 {
-    color: purple;
+    color: #6A0dad;
     height: 200px;
     width: 200px;
     font-size: 75px;
@@ -78,7 +78,7 @@ body {
   }
   
   .column {
-    border: 3px solid purple;
+    border: 3px solid #6A0dad;
     width: 640px;
     height: 600px;
     margin-left: 25px;
@@ -119,7 +119,7 @@ body {
   }
 
   .col-text {
-    border: 3px solid purple;
+    border: 3px solid #6A0dade;
     /* margin: 40px; */
     height: 560px;
     width: 500px;
