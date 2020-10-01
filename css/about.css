@@ -1,30 +1,39 @@
 .about-container {
     /* display: inline-block; */
     width: 100%;
-    height: 765px;
-    position: relative;
-    top: 100px;
+    height: 650px;
+    display: inline-block;
+    margin-top: 100px;
 }
 
 .box {
-    /* display: inline; */
+    display: inline;
     float: left;
     width: 47%;
 }
 
-
+.video {
+    border: 5px solid #6A0dad;
+    height: 600px;
+    width: 700px;
+}
 .audio {
     /* align-items: center; */
-    margin-left: 230px;
+    /* margin-left: 230px; */
     padding: 10px;
-    float: left;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.mapping {
+    margin-top: 20px;
 }
 
 .text {
     text-align: center;
-    color: purple;
-    border: 3px dashed blue;
+    color: #6A0dade;
+    border: 3px dashed #6A0dad;
     padding: 20px;
-    height: 150px;
+    height: 240px;
     width: 400px;
 }

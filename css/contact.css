@@ -4,15 +4,16 @@
 }
 
 .register-text {
-    height: 180px;
+    height: 200px;
     width: 90%;
     position: relative;
     top: 100px;
+    padding-top: 20px;
     text-align: center;
-    Color: purple;
+    Color: #6A0dad;
     font-size: 24px;
     font-weight: bolder;
-    border: 3px solid navy;
+    border: 5px solid #6A0dad;
     margin-left: 50px;
     background-color: #D3D3D3;
     font-family: satisfy, cursive;
@@ -28,7 +29,7 @@
     margin-left: 270px;
     margin-bottom: 20px;
     padding: 30px;
-    border: 2px solid purple;
+    border: 8px solid #6A0dad;
 }
 
 .contact {
@@ -59,18 +60,21 @@
     margin: 30px;
 }
 
+.map {
+    
+}
 .photographs {
     display: inline;
   
 }
 .rome {
-    width: 200px;
+    width: 220px;
     /* display: inline-block; */
     float: right;
 }
 
 .vietnam {
-    width: 180px;
+    width: 200px;
     /* display: inline-block; */
     float: left;
     margin-right: 650px;
